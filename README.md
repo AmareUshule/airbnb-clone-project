@@ -132,6 +132,38 @@ This project includes several key features that replicate the core functionality
 7. **Database Optimizations**  
    - **Indexing**: Improves performance by speeding up queries on frequently accessed data.  
    - **Caching**: Reduces database load and accelerates response times.
+  
+      ---
+  
+     ## 🔒 API Security
+
+Securing backend APIs is critical to protect user data, ensure safe transactions, and prevent unauthorized access. This project implements the following key security measures:
+
+- **Authentication**  
+  - Ensures that only registered users can access protected endpoints.  
+  - Protects sensitive user information such as email, password, and booking details.
+
+- **Authorization**  
+  - Controls access levels so that users can only perform actions they are permitted to (e.g., property owners can edit their listings, others cannot).  
+  - Prevents unauthorized modifications or access to data.
+
+- **Rate Limiting**  
+  - Limits the number of requests a client can make in a certain period.  
+  - Helps prevent abuse, brute-force attacks, and server overload.
+
+- **Secure Payment Processing**  
+  - Ensures that all payment transactions are encrypted and handled through trusted payment gateways.  
+  - Protects financial data from unauthorized access.
+
+- **Data Validation and Sanitization**  
+  - Validates all incoming requests to prevent malicious inputs (e.g., SQL injection, XSS).  
+  - Ensures the integrity of user data and the database.
+
+- **HTTPS / SSL Encryption**  
+  - All communication between clients and the server is encrypted.  
+  - Protects data in transit from eavesdropping or tampering.
+
+
 
 
  
