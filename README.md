@@ -35,6 +35,22 @@ In this project, each team member has a specific role to ensure smooth developme
 - **DevOps / Deployment Engineer**: Handles deployment, CI/CD pipelines, and server infrastructure to make sure the application runs smoothly in production.
 
   ---
+  ## 🛠️ Technology Stack
+
+This project uses the following technologies to build the Airbnb Clone:
+
+- **Django**: A high-level Python web framework used for building the RESTful API.
+- **Django REST Framework**: Provides tools for creating and managing RESTful APIs efficiently.
+- **PostgreSQL**: A powerful relational database used for secure and reliable data storage.
+- **GraphQL**: Enables flexible and efficient querying of data between client and server.
+- **Celery**: Handles asynchronous tasks such as sending notifications or processing payments.
+- **Redis**: Used for caching and session management to improve performance.
+- **Docker**: Containerization tool that ensures consistent development and deployment environments.
+- **CI/CD Pipelines**: Automated pipelines for testing, building, and deploying code changes seamlessly.
+
+   ---
+  
+
 
   
 
