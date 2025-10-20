@@ -16,3 +16,26 @@ This project replicates key features of Airbnb to demonstrate practical skills i
 - Practice **full-stack development principles** using a real-world use case.
 
 ---
+## 👥 Team Roles
+
+In this project, each team member has a specific role to ensure smooth development and collaboration:
+
+- **Frontend Developer**: Responsible for designing and implementing the user interface, ensuring the application is visually appealing and responsive across devices.
+
+- **Backend Developer**: Handles server-side logic, API creation, authentication, and integration with the database to ensure secure and efficient data management.
+
+- **Database Administrator (DBA)**: Manages the database, including schema design, queries, and optimization to ensure data integrity and performance.
+
+- **Full-Stack Developer**: Works on both front-end and back-end, bridging the gap between UI design and server-side logic.
+
+- **Project Manager**: Coordinates the team, sets deadlines, ensures requirements are met, and manages communication between team members.
+
+- **Quality Assurance (QA) / Tester**: Tests the application for bugs, usability issues, and ensures the project meets the defined standards before deployment.
+
+- **DevOps / Deployment Engineer**: Handles deployment, CI/CD pipelines, and server infrastructure to make sure the application runs smoothly in production.
+
+  ---
+
+  
+
+
