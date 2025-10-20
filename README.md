@@ -49,6 +49,61 @@ This project uses the following technologies to build the Airbnb Clone:
 - **CI/CD Pipelines**: Automated pipelines for testing, building, and deploying code changes seamlessly.
 
    ---
+  ## 🗄️ Database Design
+
+The Airbnb Clone project uses a relational database (PostgreSQL) to manage users, properties, bookings, reviews, and payments. Below is an overview of the key entities and their relationships:
+
+### **Entities and Key Fields**
+
+1. **Users**
+   - `id` (Primary Key)
+   - `username`
+   - `email`
+   - `password`
+   - `date_joined`
+   - **Relationship:** A user can have multiple properties and bookings.
+
+2. **Properties**
+   - `id` (Primary Key)
+   - `title`
+   - `description`
+   - `price_per_night`
+   - `owner_id` (Foreign Key → Users)
+   - **Relationship:** Each property belongs to one user (owner) and can have multiple bookings and reviews.
+
+3. **Bookings**
+   - `id` (Primary Key)
+   - `user_id` (Foreign Key → Users)
+   - `property_id` (Foreign Key → Properties)
+   - `start_date`
+   - `end_date`
+   - **Relationship:** A booking belongs to one user and one property.
+
+4. **Reviews**
+   - `id` (Primary Key)
+   - `user_id` (Foreign Key → Users)
+   - `property_id` (Foreign Key → Properties)
+   - `rating`
+   - `comment`
+   - **Relationship:** A review is written by a user for a specific property.
+
+5. **Payments**
+   - `id` (Primary Key)
+   - `booking_id` (Foreign Key → Bookings)
+   - `amount`
+   - `payment_date`
+   - `payment_status`
+   - **Relationship:** Each payment is linked to a booking.
+
+### **Relationships Overview**
+- **One-to-Many:** Users → Properties, Users → Bookings, Properties → Bookings, Properties → Reviews.
+- **One-to-One / Many-to-One:** Payments → Bookings.
+
+ ---
+
+ 
+
+
   
 
 
