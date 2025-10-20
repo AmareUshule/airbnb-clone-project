@@ -100,6 +100,39 @@ The Airbnb Clone project uses a relational database (PostgreSQL) to manage users
 - **One-to-One / Many-to-One:** Payments → Bookings.
 
  ---
+ ## 🧩 Feature Breakdown
+
+This project includes several key features that replicate the core functionality of Airbnb:
+
+1. **API Documentation**  
+   - **OpenAPI Standard**: The backend APIs are documented using the OpenAPI standard for clear and easy integration.  
+   - **Django REST Framework**: Provides RESTful endpoints for handling CRUD operations on users, properties, bookings, and more.  
+   - **GraphQL**: Offers flexible and efficient data queries to interact with the backend.
+
+2. **User Authentication**  
+   - Endpoints: `/users/`, `/users/{user_id}/`  
+   - Allows users to register, log in, and manage their profiles securely.
+
+3. **Property Management**  
+   - Endpoints: `/properties/`, `/properties/{property_id}/`  
+   - Enables users to create, update, retrieve, and delete property listings with images, descriptions, and pricing.
+
+4. **Booking System**  
+   - Endpoints: `/bookings/`, `/bookings/{booking_id}/`  
+   - Facilitates creating, updating, and managing bookings, including check-in and check-out details.
+
+5. **Payment Processing**  
+   - Endpoints: `/payments/`  
+   - Handles payment transactions securely for bookings.
+
+6. **Review System**  
+   - Endpoints: `/reviews/`, `/reviews/{review_id}/`  
+   - Allows users to post and manage reviews for properties.
+
+7. **Database Optimizations**  
+   - **Indexing**: Improves performance by speeding up queries on frequently accessed data.  
+   - **Caching**: Reduces database load and accelerates response times.
+
 
  
 
